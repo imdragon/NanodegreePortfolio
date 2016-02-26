@@ -13,17 +13,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void spotifyButton (View v){
-        Toast.makeText(this, R.string.toastPT1+R.string.spotifyStreamer+R.string.toastEnd, Toast.LENGTH_SHORT).show();
-    }public void scoresButton (View v){
-        Toast.makeText(this, R.string.toastPT1+R.string.scoresApp+R.string.toastEnd, Toast.LENGTH_SHORT).show();
-    }public void libraryButton (View v){
-        Toast.makeText(this, R.string.toastPT1+R.string.libraryApp+R.string.toastEnd, Toast.LENGTH_SHORT).show();
-    }public void buildButton (View v){
-        Toast.makeText(this, R.string.toastPT1+R.string.buildItBiggerApp+R.string.toastEnd, Toast.LENGTH_SHORT).show();
-    }public void xyzButton (View v){
-        Toast.makeText(this, R.string.toastPT1+R.string.xyzReaderApp+R.string.toastEnd, Toast.LENGTH_SHORT).show();
-    }public void capstoneButton (View v){
-        Toast.makeText(this, R.string.toastPT1+R.string.capstoneLabel+R.string.toastEnd, Toast.LENGTH_SHORT).show();
+    public void spotifyButton(View v) {
+        Toast.makeText(this, "This button will launch my Spotify Streamer app!", Toast.LENGTH_SHORT).show();
+    }
+
+    public void scoresButton(View v) {
+        Toast.makeText(this, "This button will launch my Scores app!", Toast.LENGTH_SHORT).show();
+    }
+
+    public void libraryButton(View v) {
+
+        Toast.makeText(this, "This button will launch my Library app", Toast.LENGTH_SHORT).show();
+    }
+
+    public void buildButton(View v) {
+        Toast.makeText(this, "This button will launch my Build It Bigger app!", Toast.LENGTH_SHORT).show();
+    }
+
+    public void xyzButton(View v) {
+        Toast.makeText(this, "This button will launch my XYZ Reader app!", Toast.LENGTH_SHORT).show();
+    }
+
+    public void capstoneButton(View v) {
+        Toast.makeText(this, "This button will launch my Capstone app!", Toast.LENGTH_SHORT).show();
     }
 }
