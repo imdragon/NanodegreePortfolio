@@ -8,4 +8,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="firstAppButton">
+        <item name="android:background">#F08C35</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginStart">75dp</item>
+        <item name="android:layout_marginEnd">75dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+<style name="capstoneButton">
+        <item name="android:background">#C2185B</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginStart">75dp</item>
+        <item name="android:layout_marginEnd">75dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>

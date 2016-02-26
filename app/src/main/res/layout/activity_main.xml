@@ -13,9 +13,33 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/myAppsString" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="@string/myAppsString"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000022" />
+
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/spotifyStreamer"/>
+        style="@style/firstAppButton"
+        android:text="@string/spotifyStreamer" />
+
+    <Button
+        style="@style/firstAppButton"
+        android:text="@string/scoresApp" />
+
+    <Button
+        style="@style/firstAppButton"
+        android:text="@string/libraryApp" />
+
+    <Button
+        style="@style/firstAppButton"
+        android:text="@string/buildItBiggerApp" />
+
+    <Button
+        style="@style/firstAppButton"
+        android:text="@string/xyzReaderApp" />
+
+    <Button
+        style="@style/capstoneButton"
+        android:text="@string/capstoneLabel" />
 </LinearLayout>
