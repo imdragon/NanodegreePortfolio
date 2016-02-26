@@ -7,4 +7,6 @@
     <string name="buildItBiggerApp">Build it Bigger</string>
     <string name="xyzReaderApp">XYZ Reader</string>
     <string name="capstoneLabel">Capstone: My Own App</string>
+    <string name="toastPT1">This button will launch my </string>
+    <string name="toastEnd"> app</string>
 </resources>
