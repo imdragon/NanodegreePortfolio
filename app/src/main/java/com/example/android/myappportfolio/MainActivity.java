@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*
-    Below are the methods for showing toasts for each button
+    Below are the methods for showing a toast for each button
      */
     public void spotifyButton(View v) {
         Toast.makeText(this, "This button will launch my Spotify Streamer app!", Toast.LENGTH_SHORT).show();
